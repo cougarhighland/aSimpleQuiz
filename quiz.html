@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-quiz.css" />
+
+    <title>quiz page</title>
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <div id="quiz-header">
+        <h2 id="question1">Question text 1</h2>
+        <ul>
+          <li>
+            <input type="radio" class="answer1" name="answer" id="a" />
+            <label for="a" id="a-answer">answer</label>
+          </li>
+          <li>
+            <input type="radio" class="answer1" name="answer" id="b" />
+            <label for="b" id="b-answer">answer</label>
+          </li>
+          <li>
+            <input type="radio" class="answer1" name="answer" id="c" />
+            <label for="c" id="c-answer">answer</label>
+          </li>
+          <li>
+            <input type="radio" class="answer1" name="answer" id="d" />
+            <label for="d" id="d-answer">answer</label>
+          </li>
+        </ul>
+
+        <h2 id="question2">Question text 2</h2>
+        <ul>
+          <li>
+            <input type="checkbox" class="answer2" name="answer" id="a" />
+            <label for="a" id="a2-answer">answer</label>
+          </li>
+          <li>
+            <input type="checkbox" class="answer2" name="answer" id="b" />
+            <label for="b" id="b2-answer">answer</label>
+          </li>
+          <li>
+            <input type="checkbox" class="answer2" name="answer" id="c" />
+            <label for="c" id="c2-answer">answer</label>
+          </li>
+          <li>
+            <input type="checkbox" class="answer2" name="answer" id="d" />
+            <label for="d" id="d2-answer">answer</label>
+          </li>
+        </ul>
+
+        <h2 id="question3">Question text 3</h2>
+        <textarea
+          rows="5"
+          type="text"
+          name="answer"
+          id="answer3"
+          placeholder="write your answer here"
+        ></textarea>
+      </div>
+
+      <button id="submit" type="submit">Submit</button>
+    </div>
+    <script src="script-quiz.js"></script>
+  </body>
+</html>

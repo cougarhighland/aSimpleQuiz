@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inknut Antiqua", serif;
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: white;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(77, 70, 70, 0);
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 2rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 0.8rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+#answer3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem;
+  width: 95%;
+  border: 1px solid #888;
+}
+
+ul li {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 0 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #0984e3;
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0461a8;
+}
+
+button:focus {
+  background-color: #2b6999;
+  outline: none;
+}
