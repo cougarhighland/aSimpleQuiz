@@ -129,7 +129,7 @@ button.addEventListener("click", (e) => {
       score++;
     }
     quiz.innerHTML = `
-    <h2>You got ${score} score and ${score}/${db.length} questions are correct.</h2>
+    <h2>You got ${score} point(s)</h2> <h2> ${score}/${db.length} questions are correct.</h2>
     <h2>The answer of the quiz: </h2>
     <ol>
     <li> c</li>
@@ -137,7 +137,7 @@ button.addEventListener("click", (e) => {
     <li> 4 </li>
     </ol>
     
-    <button onclick="location.reload()">Reload</button>
+    <button onclick="location.reload()">Try again</button>
 `;
   } else {
     alert("you must pick an answer");
